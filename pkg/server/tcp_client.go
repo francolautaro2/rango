@@ -10,8 +10,8 @@ type ServerConfig struct {
 // Function to reate a new server
 func NewServer(Addr, Port string) *ServerConfig {
 	s := &ServerConfig{
-		Addr: Addr,
-		Port: Port,
+		Addr: Addr, // Add address to server config
+		Port: Port, // Add port to server config
 	}
 	return s
 }
