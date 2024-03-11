@@ -24,7 +24,7 @@ func hasPermission(dirPath string) bool {
 func ReadAllDir(dirPath string) {
 	// View directory permissions
 	if !hasPermission(dirPath) {
-		fmt.Printf("No se pudo acceder al directorio: %s\n", dirPath)
+		fmt.Printf("Can't access to direcotory: %s\n", dirPath)
 		return
 	}
 	// Get directories and files in directorie path
