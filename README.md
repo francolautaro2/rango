@@ -19,9 +19,12 @@ This ransomware is designed to work on Windows operating systems. However, it is
 ## Building and Running
 
 To build the ransomware, run the following command:<br />
+<br />
 `make build`<br />
 This command will compile the Go code and produce an executable file.
 
 ### Running the Ransomware
 
-To run the ransomware, use the following command:
+To run the ransomware, use the following command: <br />
+<br />
+`make build`
