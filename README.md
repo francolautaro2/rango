@@ -15,3 +15,13 @@ This ransomware has been created for educational purposes and should only be use
 ## Compatibility
 
 This ransomware is designed to work on Windows operating systems. However, it is important to note that its use in production environments or on systems that are not your own may be illegal and is strictly prohibited.
+
+## Building and Running
+
+To build the ransomware, run the following command:
+    make build
+This command will compile the Go code and produce an executable file.
+
+### Running the Ransomware
+
+To run the ransomware, use the following command:
